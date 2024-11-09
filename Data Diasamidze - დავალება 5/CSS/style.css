@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body{
+    background-color: #E7E7E7;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 150px 0 200px;
+}
+
+.heading{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tranding{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.div1, .div2, .div3{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.divs{
+    display: flex;
+    gap: 60px;
+}
+
+.half1, .half3, .half5{
+    height: 50%;
+    background-size: cover;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.half1{
+    background-image: url("../Images/tranding1.png");
+}
+
+.half3{
+    background-image: url("../Images/tranding2.png");
+}
+
+.half5{
+    background-image: url("../Images/tranding3.png");
+}
+
+.half1 p, .half3 p, .half5 p{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.half2, .half4, .half6{
+    padding: 80px 50px 0 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.half2 p, .half4 p, .half6 p{
+    font-size: 12px;
+    color: #8A8787;
+    font-weight: 600;
+}
+
+.half2 div, .half4 div, .half6 div{
+    display: flex;
+    align-items: center;
+    color: #8A8787;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.now{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.divs2{
+    display: flex;
+    gap: 150px;
+}
+
+.left{
+    width: 50%;
+}
+
+.image1 p{
+    position: relative;
+    bottom: 230px;
+    left: 260px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: #243043;
+    height: 30vh;
+    width: 100%;
+    padding: 70px 150px 0 200px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: #818687;
+}
+
+.left1{
+    display: flex;
+    gap: 80px;
+    width: 60%;
+}
+
+.leftjr1{
+    display: flex;
+    gap: 80px;
+}
+
+.jr1, .jr2, .jr3{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.leftjr2{
+    color: white;
+}
